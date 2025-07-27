@@ -136,6 +136,8 @@ or
 terrafrom output id(output block name)
 ```
 
+note if you define your output in modules, you need to reference it in main.tf file in root dir in its own output block
+
 Now to destroy the thins that we created using ```main.tf``` 
 ```sh
 terraform destroy
