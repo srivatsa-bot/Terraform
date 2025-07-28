@@ -35,7 +35,7 @@ in json
 ```sh
 terraform output --json public
 ```
-raw output so  ot can be ued in commands like ssh\
+raw output so  ot can be ued in commands like ssh
 ```sh
-terraform output --raw public
+ssh -i <key> $(terraform output --raw public)@ubuntu
 ```
