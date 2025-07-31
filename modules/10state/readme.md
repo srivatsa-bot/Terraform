@@ -48,7 +48,7 @@ srivatsa@pop-os:~/golang-lco/Terraform$
 
 ---
 
-```mv`` is used to chnage the resource name from one to other
+```mv``` is used to chnage the resource name from one to other
 it can also be used to move resouce into module or module into module
 
 ```sh
@@ -65,3 +65,7 @@ If  you do tf plan it will look a the online resouce and chaneg the local state 
 This ismainly used to correct the drifts that are moade outside of tf
 
 
+---
+
+note ```terrafrom init``` will prodcue terrafom,lock file
+```terraform apply``` will produce terrafom.tfsate.lock file
