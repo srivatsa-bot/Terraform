@@ -1,3 +1,10 @@
+https://www.credly.com/badges/897529b9-b04b-48e2-9a1d-d23cf8a1ed0e/public_url
+
+Passed
+
+----
+
+
 #iac starts at planning and designing pase of sdlc
 
 #Terraform is idempotent we will always get the expected state, main diff between terraform anad ansoble.
